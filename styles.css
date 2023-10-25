@@ -1,0 +1,135 @@
+*{font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+margin: 44px 0px 144px 78px
+}
+
+.link-header{
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 20.5px;
+    background: #665AE1;
+    width: 130px;
+    height: 41px;
+    flex-shrink: 0;
+    border: none;
+}
+
+
+.logo-img
+    {
+     Width:    568px;
+     Height:    500px;
+     margin-left: 120px;
+     display: inline-block;
+    
+    }
+ section{
+    display: inline-block;
+    margin-left: 86px;
+ }   
+
+h1{
+    color: #515151;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 900;
+
+}
+ 
+h2{
+    color: #515151;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    }
+
+p{
+
+    color: #848484;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    width: 500px;
+    margin-top: 32;
+    margin-bottom: 65;
+}
+.button-explore
+{   border-radius: 20.5px;
+    background: #ADFF00;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0,0,0,0.25);
+    font-weight: 700;
+    line-height: normal;
+    color: #000;
+    font-size: 28px;
+}
+
+
+@media screen and (max-width:810px)
+ {
+    h1{ font-weight: 900;
+        font-size: 50px;
+        text-align: center;
+        width: auto;
+        margin-left: -13px;
+}
+
+    h2{ font-size: 30px;
+        font-weight: 500;
+        text-align: center;
+         width:auto ;
+         margin-right: 16px;
+    }
+    
+    
+    header{display: none;}
+
+    p {display: none;}
+ 
+    img{
+        width:auto;
+        height: 250.236px;
+        position: static;
+        padding: 90px;
+      
+    }
+
+    .logo-img {    
+        Width: 568px;
+        Height: 500px;
+        margin-left: -46px;
+        display: inline-block;}
+
+    .button-explore {
+
+        width: 250px;
+        height: 68px;
+        margin: 603px 76px 133px 76px;
+        display: block;
+        margin: auto;
+        margin-top: 120px;
+    }  
+
+    section {
+        display: block;
+    }
+}
